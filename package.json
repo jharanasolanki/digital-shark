@@ -1,0 +1,72 @@
+{
+  "name": "digital-shark",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kunal Joshi",
+    "email": "mail.kunaljoshi@gmail.com",
+    "url": "https://github.com/kunalx86/"
+  },
+  "repository": {
+    "url": "https://github.com/kunalx86/digital-shark",
+    "type": "public"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "_moduleAliases": {
+    "@server": ".next/server",
+    "@components": ".next/components",
+    "@env": ".next/env",
+    "@utils": ".next/utils",
+    "@schemas": ".next/schemas",
+    "@hooks": ".next/hooks",
+    "@providers": ".next/providers",
+    "@pages": ".next/server/pages"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@hookform/resolvers": "^2.9.7",
+    "@next-auth/prisma-adapter": "^1.0.4",
+    "@prisma/client": "^4.2.1",
+    "@supabase/supabase-js": "^1.35.6",
+    "@trpc/client": "^9.27.0",
+    "@trpc/next": "^9.27.0",
+    "@trpc/react": "^9.27.0",
+    "@trpc/server": "^9.27.0",
+    "dayjs": "^1.11.5",
+    "formidable": "^2.0.1",
+    "framer-motion": "^6",
+    "next": "12.2.3",
+    "next-auth": "^4.10.3",
+    "pusher": "^5.1.1-beta",
+    "pusher-js": "^7.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-icons": "^4.4.0",
+    "react-query": "^3.39.2",
+    "redis": "^4.3.0",
+    "superjson": "^1.9.1",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@types/formidable": "^2.0.5",
+    "@types/node": "18.0.0",
+    "@types/pusher-js": "^5.1.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.3",
+    "prisma": "^4.2.1",
+    "typescript": "4.7.4"
+  },
+  "ct3aMetadata": {
+    "initVersion": "5.6.0"
+  }
+}
